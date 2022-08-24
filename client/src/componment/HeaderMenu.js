@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../Assets/logo/logo.png'
+import cartIcon from '../Assets/logo/cart_icon.png'
+import accountIcon from '../Assets/logo/account_icon.jpg'
 
 function HeaderMenu() {
   return (
@@ -11,15 +13,19 @@ function HeaderMenu() {
         </div>
         <div className='header-mn-mid'>
             <ul>
-                <li>Sản Phẩm</li>
+                <li>Sản phẩm</li>
                 <li>Sale</li>
                 
             </ul>
         </div>
         <div className='header-mn-right'>
             <ul>
-                <li>Giỏ Hàng</li>
-                <li>Đăng nhập</li>
+                <li>
+                    <img src={cartIcon} alt="Giỏ Hàng" width="30px" />
+                </li>
+                <li>
+                    <img src={accountIcon} alt="Đăng Nhập" width="30px"/>
+                </li>
             </ul>
         </div>
     </div>
