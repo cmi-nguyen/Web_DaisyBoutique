@@ -1,0 +1,20 @@
+.header-mn-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-mn-left{
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+ul li{
+  padding-right: 10px;
+}
