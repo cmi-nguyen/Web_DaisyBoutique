@@ -1,9 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import HeaderMenu from './componment/HeaderMenu';
+import MainBanner from './componment/MainBanner';
 
 function App() {
   return (
-    <div>Main</div>
+    <div>
+      <HeaderMenu/>
+      <MainBanner/>
+    </div>
   );
 }
 
