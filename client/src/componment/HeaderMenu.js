@@ -8,7 +8,7 @@ function HeaderMenu() {
     <div className='header-mn-container'>
         <div className='header-mn-left'>
             <a href="/">
-                <img src={logo} alt="Shop-Logo" width="120px"/>
+                <img src={logo} alt="Shop-Logo" width="100px"/>
             </a>
         </div>
         <div className='header-mn-mid'>
