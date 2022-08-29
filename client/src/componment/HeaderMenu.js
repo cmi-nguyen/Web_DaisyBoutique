@@ -16,7 +16,7 @@ function HeaderMenu() {
             <ul>
                 <li>
                     <a href="/">
-                        <h4>Trang chủ</h4>
+                        <h4>Trang Chủ</h4>
                     </a>
                 </li>
                 <li>
@@ -26,12 +26,12 @@ function HeaderMenu() {
                 </li>
                 <li>
                     <a href="/">
-                        <h4>Giới thiệu</h4>
+                        <h4>Giới Thiệu</h4>
                     </a>
                 </li>
                 <li>
                     <a href="/">
-                        <h4>Liên hệ</h4>
+                        <h4>Liên Hệ</h4>
                     </a>
                 </li>
             </ul>
