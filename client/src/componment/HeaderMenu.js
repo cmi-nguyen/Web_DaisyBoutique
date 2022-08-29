@@ -8,7 +8,7 @@ function HeaderMenu() {
     <div className='header-mn-container'>
         <div className='header-mn-left'>
             <a href="/">
-                <img src={logo} alt="Shop-Logo" width="100px"/>
+                <img src={logo} alt="Shop-Logo" width="90px"/>
             </a>
         </div>
         <div className='header-mn-mid'>
@@ -21,10 +21,10 @@ function HeaderMenu() {
         <div className='header-mn-right'>
             <ul>
                 <li>
-                    <img src={cartIcon} alt="Giỏ Hàng" width="30px" />
+                    <img src={cartIcon} alt="Giỏ Hàng" width="20px" />
                 </li>
                 <li>
-                    <img src={accountIcon} alt="Đăng Nhập" width="30px"/>
+                    <img src={accountIcon} alt="Đăng Nhập" width="20px"/>
                 </li>
             </ul>
         </div>
