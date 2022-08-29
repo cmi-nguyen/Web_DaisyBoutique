@@ -1,7 +1,6 @@
 .header-mn-container{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   background-color: #ecf0f1;
   min-height: 60px;
@@ -11,18 +10,20 @@
 }
 .header-mn-left{
   display: flex;
-  padding-left: 60px;
-
+  width: 33%;
+  justify-content: center;
+  padding-left: 50px;
 }
 .header-mn-mid{
   display: flex;
-
+  align-items: center;
+  width: 33%;
 }
 .header-mn-right{
   display: flex;
   align-items: center;
-  padding-right: 60px;
- 
+  justify-content: center;
+  width: 33%;
 }
 ul {
   display: flex;
@@ -34,5 +35,9 @@ ul {
   padding-left: 0;
 }
 ul li{
-  padding-right: 10px;
+  padding-right: 15px;
+}
+a{
+  color: #2c3e50;
+  text-decoration: none;
 }

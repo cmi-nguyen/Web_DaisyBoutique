@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from '../Assets/logo/logo.png'
 import cartIcon from '../Assets/logo/cart_icon.png'
-import accountIcon from '../Assets/logo/account_icon.jpg'
+import accountIcon from '../Assets/logo/account_icon.png'
+import searchIcon from '../Assets/logo/search_icon.png'
 
 function HeaderMenu() {
   return (
@@ -13,18 +14,38 @@ function HeaderMenu() {
         </div>
         <div className='header-mn-mid'>
             <ul>
-                <li>Sản phẩm</li>
-                <li>Sale</li>
-                
+                <li>
+                    <a href="/">
+                        <h4>Trang chủ</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <h4>Sản Phẩm</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <h4>Giới thiệu</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <h4>Liên hệ</h4>
+                    </a>
+                </li>
             </ul>
         </div>
         <div className='header-mn-right'>
             <ul>
                 <li>
-                    <img src={cartIcon} alt="Giỏ Hàng" width="20px" />
+                    <img src={searchIcon} alt="Tìm Kiếm" width="25px" />
                 </li>
                 <li>
-                    <img src={accountIcon} alt="Đăng Nhập" width="20px"/>
+                    <img src={cartIcon} alt="Giỏ Hàng" width="25px" />
+                </li>
+                <li>
+                    <img src={accountIcon} alt="Đăng Nhập" width="25px"/>
                 </li>
             </ul>
         </div>
