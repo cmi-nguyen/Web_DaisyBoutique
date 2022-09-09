@@ -3,6 +3,7 @@ import logo from '../Assets/logo/logo.png'
 import cartIcon from '../Assets/logo/cart_icon.png'
 import accountIcon from '../Assets/logo/account_icon.png'
 import searchIcon from '../Assets/logo/search_icon.png'
+import {Link} from "react-router-dom";
 
 function HeaderMenu() {
   return (
@@ -15,9 +16,7 @@ function HeaderMenu() {
         <div className='header-mn-mid'>
             <ul>
                 <li>
-                    <a href="/">
-                        <h4>Trang Chủ</h4>
-                    </a>
+                    <Link to="/"><h4>Trang Chủ</h4></Link>
                 </li>
                 <li>
                     <a href="/">
@@ -25,9 +24,7 @@ function HeaderMenu() {
                     </a>
                 </li>
                 <li>
-                    <a href="/">
-                        <h4>Giới Thiệu</h4>
-                    </a>
+                    <Link to="/about"><h4>Giới Thiệu</h4></Link>
                 </li>
                 <li>
                     <a href="/">
