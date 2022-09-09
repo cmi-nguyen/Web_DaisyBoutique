@@ -1,16 +1,11 @@
 import React from 'react';
 import './App.css';
-import FooterSection from './componment/FooterSection';
-import HeaderMenu from './componment/HeaderMenu';
-import MainBanner from './componment/MainBanner';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <div>
-      <HeaderMenu/>
-      <MainBanner/>
-      <MainBanner/>
-      <FooterSection/>
+      <HomePage/>
     </div>
   );
 }
