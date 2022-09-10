@@ -1,10 +1,11 @@
 import React from 'react'
+import MainBanner from '../componment/MainBanner'
 
 
 function HomePage() {
   return (
     <div>
-        HomePage
+        <MainBanner/>
     </div>
   )
 }
