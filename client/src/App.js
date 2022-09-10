@@ -11,8 +11,9 @@ import HeaderMenu from './componment/HeaderMenu'
 function App() {
   return (
     <BrowserRouter>
-        <div className='main'>
-          <HeaderMenu/>
+        <div className='header-mn-container'>
+          
+            <HeaderMenu/>
           
         </div>
       <Routes>

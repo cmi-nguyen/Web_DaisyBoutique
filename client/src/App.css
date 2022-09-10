@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #ecf0f1;
   min-height: 60px;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
