@@ -16,20 +16,12 @@ function HeaderMenu() {
         <div className='header-mn-mid'>
             <ul>
                 <li>
-                    <Link to="/"><h4>Trang Chủ</h4></Link>
-                </li>
-                <li>
                     <a href="/">
                         <h4>Sản Phẩm</h4>
                     </a>
                 </li>
                 <li>
                     <Link to="/about"><h4>Giới Thiệu</h4></Link>
-                </li>
-                <li>
-                    <a href="/">
-                        <h4>Liên Hệ</h4>
-                    </a>
                 </li>
             </ul>
         </div>
