@@ -11,7 +11,11 @@ function FooterSection() {
         <div className='footer-mid'>mid</div>
         <div className='footer-right'>right</div>
       </div>
-      <h5>@Copy-righted by Nguyen Trieu 2022</h5>
+      <div className='footer-end'>
+        <h5>@Daisy Boutique all right reverse</h5>
+        <h6>Follow us on</h6>
+      </div>
+      
     </div>
   )
 }
