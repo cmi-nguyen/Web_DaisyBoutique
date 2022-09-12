@@ -1,4 +1,5 @@
 import React from 'react'
+import FooterSection from '../componment/FooterSection'
 import MainBanner from '../componment/MainBanner'
 
 
@@ -7,6 +8,7 @@ function HomePage() {
     <div>
         <MainBanner/>
         
+        <FooterSection/>
     </div>
   )
 }
