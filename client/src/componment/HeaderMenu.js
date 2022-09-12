@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 function HeaderMenu() {
   return (
-    <div className='header-mn-container'>
+    <header className='header-mn-container'>
         <div className='header-mn-left'>
             <a href="/">
                 <img src={logo} alt="Shop-Logo" width="100px"/>
@@ -38,7 +38,7 @@ function HeaderMenu() {
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
   )
 }
 
